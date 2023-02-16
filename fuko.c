@@ -65,7 +65,7 @@ double fx(double xv)
              
 double fxv(double x,double xv,double yv)
 {
-        return -1*(g/l)*x+2*omega*sin(60*rad)*yv;
+        return -1*(g/l)*x+2*omega*sin(60*rad)*yv;//60は振り子を設置している緯度に相当
 }
 
 double fy(double yv)
@@ -75,5 +75,5 @@ double fy(double yv)
 
 double fyv(double y,double yv,double xv)
 {
-        return -1*(g/l)*y-2*omega*sin(60*rad)*xv;
+        return -1*(g/l)*y-2*omega*sin(60*rad)*xv;//60は振り子を設置している緯度に相当
 }
