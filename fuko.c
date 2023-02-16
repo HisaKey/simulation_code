@@ -31,9 +31,7 @@ int main()
         fp1 = fopen("1.dat","w") ;
         fp2 = fopen("2.dat","w") ;
         fp3 = fopen("3.dat","w") ;
-              for ( i=0; i<=i_max;i++)
-	for ( i=0; i<=100000;i++)
-	
+        for ( i=0; i<=i_max;i++)
 	{
 
                 t = dt*i;
