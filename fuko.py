@@ -4,13 +4,13 @@ def fx(xv):
 	return xv
 
 def fxv(x,xv,yv):
-	return -1*(g/l)*x + 2*omega*np.sin(math.radians(60))*yv;
+	return -1*(g/l)*x + 2*omega*np.sin(math.radians(60))*yv#60は振り子を設置している緯度に相当
 
 def fy(yv):
 	return yv
 
 def fyv(y,yv,xv):
-	return -1*(g/l)*y -2*omega*np.sin(math.radians(60))*xv
+	return -1*(g/l)*y -2*omega*np.sin(math.radians(60))*xv#60は振り子を設置している緯度に相当
 
 g = 9.80655 #地表での重力加速度
 l = 100000 #振り子の紐の長さ
